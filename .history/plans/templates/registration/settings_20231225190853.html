@@ -1,0 +1,10 @@
+{% extends 'plans/base.html' %}
+{% block content %}
+<div class="container">
+    
+    {% if cancel_at_period_end %}
+        <p>Your Membership will run to the end </p>
+    {% endif %}
+        
+</div>
+{% endblock %}
